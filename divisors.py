@@ -3,13 +3,23 @@
 # Solution for problem number 3
 # Version 1.0
 
-number = [1000, 1001, 1002]
+start  = 10000
 
-for i in number:
-    div = i / 6
-print ("the divided num is", i, "is", div)
- #if  (div == 0):
-  # print(divs)
- #else: 
+i = 1000
+ans = 0
+
+if i<= start:
+    ans=ans+i
+    i = i + 1
+
+
+div = i / 6
+
+if div == 0 :
     
-print("have a nice day")
+  print ("the divided num is", i, "is", div)
+
+
+
+else:
+  print("have a nice day")
