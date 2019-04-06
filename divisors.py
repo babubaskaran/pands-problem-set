@@ -3,23 +3,17 @@
 # Solution for problem number 3
 # Version 1.0
 
-start  = 10000
+for i in range(1000, 1010):
+  div = i / 6
 
-i = 1000
-ans = 0
+ # start = 10000
+#ans = 0
 
-if i<= start:
-    ans=ans+i
-    i = i + 1
-
-
-div = i / 6
-
-if div == 0 :
-    
-  print ("the divided num is", i, "is", div)
+#if i<= start:
+    #ans = ans+i
+    #i = i - 1
+  print ( i)
 
 
-
-else:
-  print("have a nice day")
+#else:
+print("have a nice day")
