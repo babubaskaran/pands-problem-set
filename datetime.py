@@ -6,7 +6,11 @@
 #import time 
 
 import time 
-  
-b = time.strftime("%A, %B %dth %Y at %I:%M%p")
+day=time.strftime(%d)  
+if 4 <= day <=20 or 24 <= day <= 30:
+    suffix = "th"
+else:
+    suffix = ["st","nd"][day%10-1]
+b = time.strftime("%A, %B %d",suffix, "%Y at %I:%M%p")
 print(b)
 
