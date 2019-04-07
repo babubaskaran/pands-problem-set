@@ -10,5 +10,8 @@ def col(user1):
     if user1 % 2==0:
       user1 = (user1/2)
       return print (int(user1))
-        
+    elif user1 % 2==1:
+      user1 = (3*user1+1)
+      return print (int(user1))  
+      
 col(user1)
