@@ -3,11 +3,9 @@
 # Solution for problem number 3
 # Version 1.0
 
-for i in range(1000, 1100):
-#  for i2 in range(1000, 10000):
- #   div1 = i / 6
-  #  div2 = i /12
-   # res2 = div2 % 2
-    #res1 = div1 % 2
+# assigning range of numbers from 1000 to 10000 in for loop
+for i in range(1000, 10000):
+  # checking if the range of number is divided by 6 but not divided by 12
   if (i % 6 == 0) and (i % 12 != 0): 
+    # print the result of collatz
     print (i)
