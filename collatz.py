@@ -4,19 +4,11 @@
 # Version 1.0
 user1=int (input("Please Enter a Positive Integer : "))
 
-start = user1 % 2
+def col(user1):
+  while user1 !=1:
 
-if start  == 0: 
-    print(user1)
-
-else:
-  print("not even")
-
-#i = 1
-
-#ans = 0
-#while i>= 1:
- #   ans = ans+i
-  #  i = i + 1
-    
-#print(ans)
+    if user1 % 2==0:
+      user1 = (user1/2)
+      return print (int(user1))
+        
+col(user1)
